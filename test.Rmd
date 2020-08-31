@@ -1,11 +1,9 @@
 ---
-title: "HelloWorld"
+title: "first_markdown"
 output: pdf_document
 ---
 
-## This is a markdown file
-
-```{r setup, include=FALSE} 
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -20,6 +18,11 @@ summary(cars)
 ```
 
 ## Including Plots
+
+command option + i:
+```{r}
+"hello world"  
+```
 
 You can also embed plots, for example:
 
